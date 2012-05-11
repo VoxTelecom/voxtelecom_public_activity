@@ -10,7 +10,7 @@ module PublicActivity
     belongs_to :owner, :polymorphic => true
     # Serialize parameters Hash
     serialize :parameters, Hash
-    
+    attr_accessible :key, :owner, :parameters
     class_attribute :template
     
     # Virtual attribute returning text description of the activity
