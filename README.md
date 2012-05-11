@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PublicActivity ![Build Status](http://travis-ci.org/pokonski/public_activity.png)
 
 public_activity provides smooth acitivity tracking for your ActiveRecord models in Rails 3.
@@ -87,3 +88,9 @@ You can find documentation [here](http://rubydoc.info/gems/public_activity/)
 
 ## License
 Copyright (c) 2012 Piotrek Okoński, released under the MIT license
+=======
+voxtelecom_public_activity
+==========================
+
+voxtelecom_public_activity
+>>>>>>> c2c646c1f0aad80f6a216aa6ec167dc5633d14d7
