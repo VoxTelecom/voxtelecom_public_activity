@@ -132,7 +132,6 @@ module PublicActivity
     end
     
     # A module with shortcut method for setting own parameters to the {Activity} model
-    module InstanceMethods
     # A shortcut method for setting custom key, owner and parameters of {Activity}
     # in one line. Accepts a hash with 3 keys:
     # :key, :owner, :params. You can specify all of them or just the ones you want to overwrite.
@@ -175,7 +174,6 @@ module PublicActivity
         self.activity_owner = options[:owner] if options[:owner]
         self.activity_params = options[:params] if options[:params]
       end
-    end
     
   end
 end

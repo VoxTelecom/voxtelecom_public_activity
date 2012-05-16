@@ -3,7 +3,6 @@ module PublicActivity
   module Common
     extend ActiveSupport::Concern
     # Instance methods used by other methods in PublicActivity module.
-    module InstanceMethods
       # Directly creates activity record in the database, based on supplied arguments.
       # Only first argument - key - is required.
       #
@@ -54,6 +53,5 @@ module PublicActivity
           parameters.merge! self.activity_params if self.activity_params      
           return {:key => self.activity_key,:owner => owner, :parameters => parameters}
         end      
-    end
   end
 end
